@@ -1,0 +1,55 @@
+ion-icon {
+    font-size: 48px;
+    /*--ionicon-stroke-width: 16px;*/
+}
+
+#canvas {
+    width: 100%;
+}
+
+#sidebar {
+    width: 100px;
+    border-right: 1px solid rgba(0,0,0,0.7)
+}
+
+#changeButton {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#sidebar > * {
+    margin-bottom: 10px;
+}
+
+.button-container {
+}
+
+#colors {
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#colors > div {
+    width: 12px;
+    height: 15px;
+    margin-left: 2px;
+}
+
+#sizeSlider {
+    width: 75px;
+    margin-bottom: 20px;
+}
+
+#sizeDisplay {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.7);
+    margin-top: 5px;
+    border-radius: 10000px;
+}
+
+body {
+    position: relative;
+    display: flex;
+    overflow: hidden
+}

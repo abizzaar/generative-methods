@@ -1,0 +1,31 @@
+
+body {
+  background-color: hsla(0, 0%, 0%, 1);
+}
+
+
+/* Set the size of the containers */
+.drawing {
+	box-sizing: border-box;
+	margin: 10px;
+	vertical-align: top;
+	
+	display: inline-block;
+	border: 1px solid rgba(255,255,255,0.4);
+	box-shadow: 1px 2px 5px black;
+	border-radius: 10px;
+}
+
+.drawing-label {
+	font-family: monospace;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+	color: rgba(255,255,255,0.8)
+}
+
+/* Set the size of the containers */
+.drawing-p5holder {
+	box-sizing: border-box;
+	margin: 10px;
+}

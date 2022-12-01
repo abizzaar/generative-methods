@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>Abizar - Particle effects</title>
+		<link rel="stylesheet" href="page.css">
+
+	<!-- Or P5 loaded locally -->
+	<script src="../shared/p5.js"></script>
+	
+	
+	<script src="vector.js"></script>
+
+	<!-- add your particle code --> 
+	<script src="vortex.js"></script>
+	<script src="circler.js"></script>
+	<script src="electric.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+	<div id="main-column">
+		<h1>partykill effects</h1>
+
+		<div id="main">
+
+		</div>
+
+		<div id="controls">
+			<button onclick="createVortexParticles(50)">+50 blue</button>
+			<button onclick="createCirclerParticles(50)">+50 red</button>
+			<button onclick="createElectricParticles(50)">+50 purple</button>
+			<button onclick="FLAGS.drawVortexDebug=!FLAGS.drawVortexDebug">blueDebug</button>
+			<button onclick="FLAGS.drawCirclerDebug=!FLAGS.drawCirclerDebug">redDebug</button>
+			<button onclick="FLAGS.drawElectricDebug=!FLAGS.drawElectricDebug">purpleDebug</button>
+		</div>
+	</div>
+
+</body>
+</html>

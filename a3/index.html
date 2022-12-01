@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>A3: Abizar Bagasrawala</title>
+    <meta name="description" content="Abizar Bagasrawala"/>
+    <meta name="viewport" http-equiv="Content-Type"
+          content="text/html; charset=UTF-8; width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="page.css"/>
+    <script src="Please.js"></script>
+    <script src="../shared/p5.min.js"></script>
+</head>
+<body id="body">
+<div id="sidebar">
+    <div>
+        <div>Colors</div>
+        <button id="changeButton" onClick="changeColors()">Change</button>
+        <div id="colors"></div>
+    </div>
+    <div>
+        <label for="sizeSlider">Size</label>
+        <input type="range" min="30" max="400" value="30" id="sizeSlider" oninput="changeSize(this.value)">
+<!--        <div id="sizeDisplay"></div>-->
+    </div>
+</div>
+<div id="canvas"></div>
+<script src="app.js"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
