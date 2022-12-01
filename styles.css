@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Ultra', serif;
+    font-family: 'Ultra', monospace;
     background-color: rgba(0, 0, 0, 0.15)
 }
 
